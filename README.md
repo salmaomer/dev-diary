@@ -36,7 +36,7 @@
 #### Basic Shell Commands:
 
 ##### ~ **pwd (Print Working Directory):** Displays the full path of the current directory from the root directory to where you are.
-Example ![example](whiteboard-challenges/im2.PNG)
+Example ![example](imge/pwd.PNG)
 
 ##### ~ **mkdir (Make Directory):** Creates a new directory in the specified location. If no path is given, it creates the directory in the current working directory.
 
