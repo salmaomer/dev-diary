@@ -36,15 +36,22 @@
 #### Basic Shell Commands:
 
 ##### ~ **pwd (Print Working Directory):** Displays the full path of the current directory from the root directory to where you are.
-[![example](imge/pwd.PNG)](https://example.com/fullsize-image)
+[example](imge/pwd.PNG)
 
 ##### ~ **mkdir (Make Directory):** Creates a new directory in the specified location. If no path is given, it creates the directory in the current working directory.
+[example](imge/mkdir.PNG)
+
 
 ##### ~ **ls (List):** Lists the contents of a directory. If no directory is specified, it lists the contents of the current working directory.
+[example](imge/ls.PNG)
 
 ##### ~ **cd (Change Directory):** Changes the current directory. You can specify either a relative or absolute path. You can also use .. to move up one directory level.
+[example](imge/cd.PNG)
+
 
 ##### ~ **touch (Create New File):** Creates a new, empty file in the current directory with the specified name.
+[example](touch/ls.PNG)
+
 
 ##### ~ Helper Commands:
 - **clear**: Clears the terminal screen.
@@ -53,9 +60,13 @@
 
 #### File Management Commands:
 
-##### ~ **:**cp (Copy) Copies files or directories from a source to a destination.
+##### ~ **cp:** (Copy) Copies files or directories from a source to a destination.
+[example](imge/cp.PNG)
+
 
 ##### ~ **mv (Move):** Moves files or directories. It can also be used for renaming.
+[example](imge/mv.PNG)
+
 
 ##### ~ **rm (Remove):** Deletes files or directories. Use -r to delete directories recursively.
 
@@ -65,6 +76,7 @@
 | `-a`   | Lists **all** contents including hidden files               | `ls -a`  |
 | `-l`   | Lists contents in **long format** (permissions, size, etc.) | `ls -l`  |
 | `-t`   | Sorts by **modification time**                              | `ls -t`  |
+ [example](imge/lso.PNG)
 
 
 #### Redirection and Pipes: 
@@ -76,6 +88,8 @@
 ##### ~ **Redirect Output (> and >>):** Redirects output to a file, either overwriting or appending it.
 
 ##### ~ **cat:** Displays the contents of one or more files.
+[example](imge/cat.PNG)
+
 
 ##### ~ **grep (Search):** Searches for patterns within files. Can be used with different options like -i for case-insensitive search or -R to search recursively.
 
