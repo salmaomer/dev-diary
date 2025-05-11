@@ -69,6 +69,7 @@
 | `-a`   | Lists **all** contents including hidden files               | `ls -a`  |
 | `-l`   | Lists contents in **long format** (permissions, size, etc.) | `ls -l`  |
 | `-t`   | Sorts by **modification time**                              | `ls -t`  |
+
 [example](imge/lso.PNG)
 
 
