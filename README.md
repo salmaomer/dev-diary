@@ -30,8 +30,69 @@
 | Progress Over Perfection       | Don’t let perfection delay delivery                                | Faster feedback and improvement loop   |
 
 
----
+------------
 
-### What I learned from the Terminal Command Cheat sheet 
+### What I learned from the Terminal Command Cheat sheet.
+#### Basic Shell Commands:
+
+##### ~ **pwd (Print Working Directory):** Displays the full path of the current directory from the root directory to where you are.
+
+##### ~ **mkdir (Make Directory):** Creates a new directory in the specified location. If no path is given, it creates the directory in the current working directory.
+
+##### ~ **ls (List):** Lists the contents of a directory. If no directory is specified, it lists the contents of the current working directory.
+
+##### ~ **cd (Change Directory):** Changes the current directory. You can specify either a relative or absolute path. You can also use .. to move up one directory level.
+
+##### ~ **touch (Create New File):** Creates a new, empty file in the current directory with the specified name.
+
+##### ~ Helper Commands:
+- **clear**: Clears the terminal screen.
+- **Tab**: Autocompletes file and folder names.
+- **↑ and ↓**: Cycle through previously entered commands.
+
+#### File Management Commands:
+
+##### ~ **:**cp (Copy) Copies files or directories from a source to a destination.
+
+##### ~ **mv (Move):** Moves files or directories. It can also be used for renaming.
+
+##### ~ **rm (Remove):** Deletes files or directories. Use -r to delete directories recursively.
+
+#### Additional ls Command Options:
+| Option | Description                                                 | Example  |
+|--------|-------------------------------------------------------------|----------|
+| `-a`   | Lists **all** contents including hidden files               | `ls -a`  |
+| `-l`   | Lists contents in **long format** (permissions, size, etc.) | `ls -l`  |
+| `-t`   | Sorts by **modification time**                              | `ls -t`  |
+
+
+#### Redirection and Pipes: 
+
+##### ~ **Append Redirect (>>):** Appends output from a command to a file.
+
+##### ~ **Pipe (|):** Takes the output of one command and passes it as input to another command.
+
+##### ~ **Redirect Output (> and >>):** Redirects output to a file, either overwriting or appending it.
+
+##### ~ **cat:** Displays the contents of one or more files.
+
+##### ~ **grep (Search):** Searches for patterns within files. Can be used with different options like -i for case-insensitive search or -R to search recursively.
+
+#### Command-Line Environment:
+
+| Command                   | Purpose                                                              | Example                   |
+|---------------------------|----------------------------------------------------------------------|---------------------------|
+| `env`                     | Displays all **environment variables** for the current user          | `env`                     |
+| `alias`                   | Creates a **shortcut** for a longer command                          | `alias pd="pwd"`          |
+| `export`                  | Makes a **variable** available to child sessions                     | `export USER="Jane Doe"`  |
+| `echo $HOME`              | Displays the path to the **home directory**                          | `echo $HOME`              |
+| `history`                 | Shows the list of **previous commands** used in the session          | `history`                 |
+| `source ~/.bash_profile`  | Loads or **refreshes configuration** changes made in `.bash_profile` | `source ~/.bash_profile`  |
+
+#### Understanding the File System:
+
+- The file system is organized in a **tree-like hierarchy**, with the **root directory (`/`)** at the top. Each directory can contain files and subdirectories.
+  
+- The **home directory (`$HOME`)** is specific to the current user and typically contains personal files, configurations, and settings.
 
 ![Most Frequent Number Whiteboard](whiteboard-challenges/im2.PNG)
