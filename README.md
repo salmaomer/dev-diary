@@ -30,12 +30,13 @@
 | Progress Over Perfection       | Don’t let perfection delay delivery                                | Faster feedback and improvement loop   |
 
 
-------------
+----
 
 ### What I learned from the Terminal Command Cheat sheet.
 #### Basic Shell Commands:
 
 ##### ~ **pwd (Print Working Directory):** Displays the full path of the current directory from the root directory to where you are.
+Example ![example](whiteboard-challenges/im2.PNG)
 
 ##### ~ **mkdir (Make Directory):** Creates a new directory in the specified location. If no path is given, it creates the directory in the current working directory.
 
@@ -94,5 +95,3 @@
 - The file system is organized in a **tree-like hierarchy**, with the **root directory (`/`)** at the top. Each directory can contain files and subdirectories.
   
 - The **home directory (`$HOME`)** is specific to the current user and typically contains personal files, configurations, and settings.
-
-![Most Frequent Number Whiteboard](whiteboard-challenges/im2.PNG)
