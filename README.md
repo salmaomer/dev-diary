@@ -58,7 +58,7 @@
 ##### ~ **cp:** (Copy) Copies files or directories from a source to a destination.[example](imge/cp.PNG)
 
 
-##### ~ **mv (Move):** Moves files or directories. It can also be used for renaming.[example](imge/mv.PNG)
+##### ~  ***mv (Move):** Moves files or directories. It can also be used for renaming.[example](imge/mv.PNG)*
 
 
 ##### ~ **rm (Remove):** Deletes files or directories. Use -r to delete directories recursively.
