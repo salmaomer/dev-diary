@@ -35,33 +35,33 @@
 ### *What I learned from the Terminal Command Cheat sheet.*
 #### *Basic Shell Commands:*
 
-##### *~ **pwd (Print Working Directory):** Displays the full path of the current directory from the root directory to where you are.[example](imge/pwd.PNG)*
+##### ~ ***pwd (Print Working Directory):** Displays the full path of the current directory from the root directory to where you are.[example](imge/pwd.PNG)*
 
-##### *~ **mkdir (Make Directory):** Creates a new directory in the specified location. If no path is given, it creates the directory in the current working directory.[example](imge/mkdir.PNG)*
-
-
-##### *~ **ls (List):** Lists the contents of a directory. If no directory is specified, it lists the contents of the current working directory.[example](imge/ls.PNG)*
-
-##### *~ **cd (Change Directory):** Changes the current directory. You can specify either a relative or absolute path. You can also use .. to move up one directory level.[example](imge/cd.PNG)*
+##### ~ ***mkdir (Make Directory):** Creates a new directory in the specified location. If no path is given, it creates the directory in the current working directory.[example](imge/mkdir.PNG)*
 
 
-##### *~ **touch (Create New File):** Creates a new, empty file in the current directory with the specified name.[example](touch/ls.PNG)*
+##### ~ ***ls (List):** Lists the contents of a directory. If no directory is specified, it lists the contents of the current working directory.[example](imge/ls.PNG)*
+
+##### ~ ***cd (Change Directory):** Changes the current directory. You can specify either a relative or absolute path. You can also use .. to move up one directory level.[example](imge/cd.PNG)*
 
 
-##### *~ Helper Commands:*
+##### ~ ***touch (Create New File):** Creates a new, empty file in the current directory with the specified name.[example](touch/ls.PNG)*
+
+
+##### ~ *Helper Commands:*
 - **clear**: Clears the terminal screen.
 - **Tab**: Autocompletes file and folder names.
 - **↑ and ↓**: Cycle through previously entered commands.
 
 #### *File Management Commands:*
 
-##### *~ **cp:** (Copy) Copies files or directories from a source to a destination.[example](imge/cp.PNG)*
+##### ~ ***cp:** (Copy) Copies files or directories from a source to a destination.[example](imge/cp.PNG)*
 
 
-##### *~  **mv (Move):** Moves files or directories. It can also be used for renaming.[example](imge/mv.PNG)*
+##### ~  ***mv (Move):** Moves files or directories. It can also be used for renaming.[example](imge/mv.PNG)*
 
 
-##### *~ **rm (Remove):** Deletes files or directories. Use -r to delete directories recursively.*
+##### ~ ***rm (Remove):** Deletes files or directories. Use -r to delete directories recursively.*
 
 #### *Additional ls Command Options:*
 | *Option* | *Description*                                                 | *Example*  |
@@ -75,16 +75,16 @@
 
 #### *Redirection and Pipes:* 
 
-##### *~ **Append Redirect (>>):** Appends output from a command to a file.*
+##### ~ ***Append Redirect (>>):** Appends output from a command to a file.*
 
-##### *~ **Pipe (|):** Takes the output of one command and passes it as input to another command.*
+##### ~ ***Pipe (|):** Takes the output of one command and passes it as input to another command.*
 
-##### *~ **Redirect Output (> and >>):** Redirects output to a file, either overwriting or appending it.*
+##### ~ ***Redirect Output (> and >>):** Redirects output to a file, either overwriting or appending it.*
 
-##### *~ **cat:** Displays the contents of one or more files.[example](imge/cat.PNG)*
+##### ~ ***cat:** Displays the contents of one or more files.[example](imge/cat.PNG)*
 
 
-##### *~ **grep (Search):** Searches for patterns within files. Can be used with different options like -i for case-insensitive search or -R to search recursively.*
+##### ~ ***grep (Search):** Searches for patterns within files. Can be used with different options like -i for case-insensitive search or -R to search recursively.*
 
 #### *Command-Line Environment:*
 
